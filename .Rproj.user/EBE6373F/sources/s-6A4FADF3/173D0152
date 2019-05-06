@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1557149881402.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "173D0152",
+    "lastKnownWriteTime" : 1557151659,
+    "last_content_update" : 1557151659314,
+    "path" : "~/summaryPack/man/getMax.Rd",
+    "project_path" : "man/getMax.Rd",
+    "properties" : {
+        "cursorPosition" : "3,7",
+        "scrollLine" : "0",
+        "tempName" : "Untitled2"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}

@@ -1,0 +1,69 @@
+mtcars.pca <- prcomp(mtcars[,c(1:7,10,11)], center = TRUE, scale. = TRUE)
+summary(mtcars.pca)
+View(mtcars.pca)
+View(mtcars.pca)
+library(ggplot)
+library(ggplot2)
+library("ggplot2")
+install.packages("ggplot")
+library("ggplot")
+install.packages("ggplot2")
+library("ggplot2")
+plot(mtcars.pca)
+ggplot(mtcars.pca)
+ggplot(mtcars.pca, aes(x=PC1, y=PC2)) +
+geom_point(shape=1)
+pcData <- as.data.frame(mtcars.pca$x)
+View(pcData)
+ggplot(pcData)
+View(mtcars.pca)
+ggplot(pcData, aes(x=PC1, y=PC2))
+ggplot(pcData, aes(x=pcData$PC1, y=pcData$PC2))
+ggplot(pcData, AES(x=pcData$PC1, y=pcData$PC2))
+ggplot(pcData, aes(x=pcData$PC1, y=pcData$PC2))
+ggplot(pcData, aes(x=pcData$PC1, y=pcData$PC2)) + geom_point()
+?cor
+cor.obj = cor(pcData$PC1, mtcars$mpg)
+cor.obj
+cor.obj = cor(pcData$PC1, mtcars$cyl)
+cor.obj
+ggplot(pcData, aes(x=pcData$PC1, y=pcData$PC2)) + geom_point()
+ggplot(pcData, aes(x=pcData$PC1, y=pcData$PC2)) + geom_point() +geom_text(aes(label=rownames(mtcars),hjust=0, vjust=0))
+ggplot(pcData,  aes(x=PC1, y=PC2, color = cyl)) + geom_point() + geom_text(aes(label=rownames(mtcars),hjust=0, vjust=0))
+ggplot(pcData,  aes(x=PC1, y=PC2, color = mtcars$cyl)) + geom_point() + geom_text(aes(label=rownames(mtcars),hjust=0, vjust=0))
+cyl1 = as.factor(mtcars$cyl)
+ggplot(pcData,  aes(x=PC1, y=PC2, color = cyl1 )) + geom_point() + geom_text(aes(label=rownames(mtcars),hjust=0, vjust=0))
+> library(devtools)
+> install_github("vqv/ggbiplot")
+> library(ggbiplot)
+> ggbiplot(mtcars.pca)
+library(devtools)
+install_github("vqv/ggbiplot")
+library(ggbiplot)
+ggbiplot(mtcars.pca)
+ggbiplot(mtcars.pca, labels=rownames(mtcars))
+mtcars.country <- c(rep("Japan", 3), rep("US",4), rep("Europe", 7),rep("US",3), "Europe", rep("Japan", 3), rep("US",4), rep("Europe", 3),
+"US", rep("Europe", 3))
+ggbiplot(mtcars.pca,ellipse=TRUE, labels=rownames(mtcars),
+groups=mtcars.country)
+View(mtcars.pca)
+dim(mtcars)
+?getMean
+?getMean
+?getMean()
+?getMax()
+getMax <- function(datad, columnName)
+{
+max(datad[,columnName])
+}
+getMin <- function(datad, columnName)
+{
+min(datad[,columnName])
+}
+getMean <- function(datad, columnName)
+{
+mean(datad[,columnName])
+}
+getMax
+?getMax
+?getMax()

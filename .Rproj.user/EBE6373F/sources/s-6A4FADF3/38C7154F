@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1557151389776.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "38C7154F",
+    "lastKnownWriteTime" : 1557151655,
+    "last_content_update" : 1557151655806,
+    "path" : "~/summaryPack/man/getMean.Rd",
+    "project_path" : "man/getMean.Rd",
+    "properties" : {
+        "cursorPosition" : "15,19",
+        "scrollLine" : "0",
+        "tempName" : "Untitled3"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}

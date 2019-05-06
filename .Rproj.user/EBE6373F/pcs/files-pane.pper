@@ -1,0 +1,9 @@
+{
+    "path" : "~/summaryPack/man",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
